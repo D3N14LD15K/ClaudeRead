@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ClaudeRead. Extract Your Claude Conversation to a Text File.",
+  "version": "1.0",
+  "author": "@D3N14LD15K",
+  "description": "Read your Claude.ai conversation and download the file as a text.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://claude.ai/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Download Conversation"
+  }
+}
